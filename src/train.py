@@ -7,7 +7,7 @@ from stable_baselines3.common.env_util import make_atari_env
 import os
 
 
-environment_name = "Breakout-v0"
+environment_name = "BreakoutNoFrameskip-v4"
 env = gym.make(environment_name, render_mode='human')
 episodes = 1
 for episode in range(1, episodes+1):
