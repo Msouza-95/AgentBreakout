@@ -46,18 +46,7 @@ A dinâmica, você move uma raquete e bate a bola em uma parede de tijolos no to
 
 Você marca pontos destruindo tijolos na parede. A recompensa por destruir um tijolo depende da cor do tijolo.
 
-## Treinar Agente 
 
-```bash
-Execute o arquivo em src 'train.py' 
-``` 
-
-## Executar um Agente já treinado 
-
-```bash
-Execute o arquivo em src 'agentTest.py' 
-É preciso especificar  o caminho do agente treinado na variável 'a2c_path'
-``` 
 ## Dependências
 
 Será necessário :
@@ -70,6 +59,19 @@ Pode importar facilmente esssas dependências atraves do [Anaconda-navigator](ht
 
 ```bash
 Import no anaconda o arquivo 'agentBreakout.yaml' localizado na pasta ambienteAnaconda
+``` 
+
+## Treinar Agente 
+
+```bash
+Execute o arquivo em src 'train.py' 
+``` 
+
+## Executar um Agente já treinado 
+
+```bash
+Execute o arquivo em src 'agentTest.py' 
+É preciso especificar  o caminho do agente treinado na variável 'a2c_path'
 ``` 
 
 ## Relatórios com tensorboard
